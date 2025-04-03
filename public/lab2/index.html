@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Робота з файлами</title>
+</head>
+<body>
+    <h2>Завантаження файлу</h2>
+    <form action="process.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Завантажити">
+    </form>
+
+    <h2>Зчитування тексту</h2>
+    <form action="text.php" method="post" enctype="multipart/form-data">
+        <input type="text" name="text">
+        <input type="submit" value="Зчитати">
+    </form>
+
+    <h2><a href="list.php">Переглянути список файлів</a></h2>
+</body>
+</html>
